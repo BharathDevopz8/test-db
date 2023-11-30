@@ -1,0 +1,13 @@
+namespace: dev-namespace
+resources:
+  - ../../base/
+  - namespace.yaml
+# patchesStrategicMerge:  
+#   - awx-dev.yaml
+
+patches:
+  - path: awx-dev.yaml  # Reference the patch file
+    target:
+      kind: HelmRelease
+      
+
