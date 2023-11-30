@@ -27,6 +27,12 @@ spec:
       spec:
         service_type: NodePort
         admin_user: admin
-        nodeport_port: 30081
-
+        nodeport_port: 
+    postgres:
+      enabled: true
+      host: 
+      port: 5432
+      dbName: postgres
+      username: postgres
+      password: 
 
