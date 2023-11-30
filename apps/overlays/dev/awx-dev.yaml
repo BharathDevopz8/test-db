@@ -16,5 +16,6 @@ spec:
       spec:
         nodeport_port: 30099              
       postgres:
+        enabled: true
         host: database-1-instance-1.cqdguar2ilnu.ap-south-1.rds.amazonaws.com
         password: Z22gsjG2eTxy
