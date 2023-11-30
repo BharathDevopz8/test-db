@@ -8,13 +8,13 @@ spec:
   chart:
     spec:
       sourceRef:
-        namespace: flux-system #Change it if needed     
+        namespace: dev-namespace #Change it if needed     
   values:
     AWX:
       enabled: true
       name: awx-dev
       spec:
         nodeport_port: 30099              
-    postgres:
-      host: database-1-instance-1.cqdguar2ilnu.ap-south-1.rds.amazonaws.com
-      password: Z22gsjG2eTxy
+      postgres:
+        host: database-1-instance-1.cqdguar2ilnu.ap-south-1.rds.amazonaws.com
+        password: Z22gsjG2eTxy

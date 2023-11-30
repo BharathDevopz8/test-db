@@ -3,10 +3,7 @@ resources:
   - ../../base/
   - namespace.yaml
 
-
 patches:
   - path: awx-dev.yaml  # Reference the patch file
     target:
       kind: HelmRelease
-      
-
